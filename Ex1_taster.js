@@ -36,8 +36,9 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
-
-
+console.log("Welcome to JavaScript!")
+const name ="Hayat";
+console.log(`Hello ${name}`);
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
