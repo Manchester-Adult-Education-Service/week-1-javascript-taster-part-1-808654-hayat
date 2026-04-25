@@ -125,7 +125,9 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
-
+const myNumber = 8;
+const Total = myNumber*myNumber
+console.log(`${Total}`)
 
 
 // Extension 2: Score Tracker
@@ -139,7 +141,12 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
-
+const score = 0
+const userAnswer = 10
+if (userAnswer === 10) {
+     const newTotal = score + userAnswer
+     console.log(`${newTotal}`);
+}
 
 
 // Extension 3: The Length Checker
@@ -153,7 +160,10 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-
+const user_name = "Hayaaat"
+if (user_name.length > 5 ) {
+     console.log("That's a long word!")
+}
 
 
 // -----------------------------------------------------------
