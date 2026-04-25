@@ -36,8 +36,9 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
-
-
+console.log("Welcome to JavaScript!")
+const name ="Hayat";
+console.log(`Hello ${name}`);
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
@@ -58,7 +59,11 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
+const num1=10;
+const num2=5
+const total = num1+num2
 
+console.log(`${total}`)
 
 
 // -----------------------------------------------------------
@@ -83,7 +88,12 @@ console.log("-------------------------------------------");
 // }
 
 // Write your code below:
-
+const password="luay"
+if (password === "luay") {
+     console.log("Access granted");
+} else {
+     console.log("Access Denied");
+}
 
 
 // -----------------------------------------------------------
@@ -115,7 +125,9 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
-
+const myNumber = 8;
+const Total = myNumber*myNumber
+console.log(`${Total}`)
 
 
 // Extension 2: Score Tracker
@@ -129,7 +141,12 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
-
+const score = 0
+const userAnswer = 10
+if (userAnswer === 10) {
+     const newTotal = score + userAnswer
+     console.log(`${newTotal}`);
+}
 
 
 // Extension 3: The Length Checker
@@ -143,7 +160,10 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-
+const user_name = "Hayaaat"
+if (user_name.length > 5 ) {
+     console.log("That's a long word!")
+}
 
 
 // -----------------------------------------------------------
@@ -180,7 +200,29 @@ Create a chatbot logic that uses nested IF statements and a 'status' check.
 */
 
 // Write your code below:
-
+const userMood = "tired"
+const hoursSleep = 4
+if (userMood === "tired") {
+     if (hoursSleep < 6) {
+          console.log("Go to bed!");
+     } else {
+          console.log("Maybe you need more caffeine?");
+     }
+} 
+else if (userMood === "happy") {
+     console.log("Keep that energy up!");
+} 
+else if (userMood === "hungry") {
+     const likesPizza = true
+     if (likesPizza === true) {
+          console.log("Order a Margherita");
+     } else {
+          console.log("How about a salad?");
+     }
+} 
+else {
+     console.log("I'm not sure how to help with that mood yet.");
+}
 
 
 // -----------------------------------------------------------
